@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(sky.jpg); background-size: cover;
+}
+/* .back button {
+  text-align: left;
+  background-color: blue background-position: center; background-size: cover;
+   padding: 50px 0px;
+   width: 2000px */
+
+h1{
+  background-color: rgb(166, 200, 201);
+  }
+
+h2 {
+  text-align: center;
+  font-family: fantasy;
+  font-weight: 400;
+  font-style: italic;
+  background-color: none;
+}
+.pics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:  center;
+}
+img {
+  width:  500px;
+  height: 300px;
+  margin: 5px
+
+
+
+  /* border-style: solid;
+  border-color: black */
+}
+
+/* .top {
+  width: 1000px
+
+  height: 300px
+
+} */
+
+.out {
+  width: 300px;
+  height: 500px;
+  margin: 5px
+}
+img:hover{
+  /* transition-duration: 5s */
+  transition: all 1s;
+  transform: scale(1.2);
+  /* border-style: solid;
+  border-color: black */
+
+/* }
+img: selection{
+
+} */
